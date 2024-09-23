@@ -1,0 +1,75 @@
+body{
+    background-image: url('https://www.mktesportivo.com/wp-content/uploads/2023/02/nikerun.jpeg');
+    background-position: 50% 50%;
+    background-size:cover;
+    width: 100%;
+    height: 720px;
+}
+
+
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr ;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 500px;        
+    grid-gap: 20px;  
+    color:rgb(255, 253, 253)
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: rgb(1, 1, 1);
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+}
+  
+  input[type=button] {
+    width: 100%;
+    background-color: #5a7cb0;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: black;
+  }
+  
+  input[type=button]:hover {
+    background-color: #022583;
+    cursor: pointer;
+  }
+  
+
+
+  
+
+  
